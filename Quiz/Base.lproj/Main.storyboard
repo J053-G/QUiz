@@ -207,7 +207,7 @@
         <!--Navigation Controller-->
         <scene sceneID="8OX-cI-6ls">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XZv-nV-pkz" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XZv-nV-pkz" colorLabel="IBBuiltInLabel-Yellow" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="06L-Is-no8"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tpW-ab-A3n">
@@ -224,6 +224,7 @@
             <point key="canvasLocation" x="846.72897196261681" y="136.71706263498922"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

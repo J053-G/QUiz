@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0AA74C0260CFEA20094E266 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA74BF260CFEA20094E266 /* QuestionData.swift */; };
 		A0B48115260BBBCD00793B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B48114260BBBCD00793B99 /* AppDelegate.swift */; };
 		A0B48117260BBBCD00793B99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B48116260BBBCD00793B99 /* SceneDelegate.swift */; };
 		A0B48119260BBBCD00793B99 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B48118260BBBCD00793B99 /* IntroductionViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0AA74BF260CFEA20094E266 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 		A0B48111260BBBCD00793B99 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B48114260BBBCD00793B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0B48116260BBBCD00793B99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				A0B48114260BBBCD00793B99 /* AppDelegate.swift */,
 				A0B48116260BBBCD00793B99 /* SceneDelegate.swift */,
+				A0AA74BF260CFEA20094E266 /* QuestionData.swift */,
 				A0B48129260BC38E00793B99 /* QuestionViewController.swift */,
 				A0B4812C260BC41A00793B99 /* ResultsViewController.swift */,
 				A0B48118260BBBCD00793B99 /* IntroductionViewController.swift */,
@@ -146,6 +149,7 @@
 				A0B48119260BBBCD00793B99 /* IntroductionViewController.swift in Sources */,
 				A0B48115260BBBCD00793B99 /* AppDelegate.swift in Sources */,
 				A0B4812A260BC38E00793B99 /* QuestionViewController.swift in Sources */,
+				A0AA74C0260CFEA20094E266 /* QuestionData.swift in Sources */,
 				A0B4812D260BC41A00793B99 /* ResultsViewController.swift in Sources */,
 				A0B48117260BBBCD00793B99 /* SceneDelegate.swift in Sources */,
 			);
