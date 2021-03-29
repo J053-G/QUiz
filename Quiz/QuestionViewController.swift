@@ -9,12 +9,32 @@ import UIKit
 
 class QuestionViewController: UIViewController {
     
+    @IBOutlet weak var QuestionLabel: UILabel!
     
     @IBOutlet weak var questionOneStackView: UIStackView!
     
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
+    @IBOutlet weak var button4: UIButton!
+    
     @IBOutlet weak var questionTwoStackView: UIStackView!
     
+    @IBOutlet weak var button5: UIButton!
+    @IBOutlet weak var button6: UIButton!
+    @IBOutlet weak var button7: UIButton!
+    @IBOutlet weak var button8: UIButton!
+    
+    
     @IBOutlet weak var questionThreeStackView: UIStackView!
+    
+    @IBOutlet weak var button9: UIButton!
+    @IBOutlet weak var button10: UIButton!
+    @IBOutlet weak var button11: UIButton!
+    @IBOutlet weak var button12: UIButton!
+    
+    
+    @IBOutlet weak var questionProgressView: UIProgressView!
     
     var question: [Question] = [
         Question(text: "Which best decribes you?",
