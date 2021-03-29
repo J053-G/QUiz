@@ -9,6 +9,13 @@ import UIKit
 
 class QuestionViewController: UIViewController {
     
+    
+    @IBOutlet weak var questionOneStackView: UIStackView!
+    
+    @IBOutlet weak var questionTwoStackView: UIStackView!
+    
+    @IBOutlet weak var questionThreeStackView: UIStackView!
+    
     var question: [Question] = [
         Question(text: "Which best decribes you?",
                  type: .question1,
@@ -36,11 +43,35 @@ class QuestionViewController: UIViewController {
                     Answer(text: "Make remarkable bird calls", type: .meg)
                  ])
     ]
+    
+    var questionIndex = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        updateUI()
+        
 
-        // Do any additional setup after loading the view.
+    }
+    
+    func updateUI() {
+        questionOneStackView.isHidden = true
+        questionTwoStackView.isHidden = true
+        questionThreeStackView.isHidden = true
+        
+        navigationItem.title = "Question #\(questionIndex + 1)"
+        
+        let currentQuestion = question[questionIndex]
+        
+        switch currentQuestion.type {
+        case .question1:
+            questionOneStackView.isHidden = false
+        case .question2:
+            questionTwoStackView.isHidden = false
+        case .question3:
+            questionThreeStackView.isHidden = false
+       
+        }
     }
     
 }
